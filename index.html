@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akses &amp; Panduan PromptNusa Studio</title>
+<meta name="description" content="Link akses PromptNusa Studio dan panduan penggunaan untuk pembeli.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#16213e; --muted:#5b6578; --bg:#f4f7ff; --card:#ffffff; --line:#d9e2f6;
+  --navy:#0a1a52; --blue:#2563eb; --cyan:#0e7490; --soft:#eaf1ff; --onblue:#ffffff;
+}
+@media (prefers-color-scheme:dark){
+  :root{--ink:#e7ecfb; --muted:#9aa6c4; --bg:#0b1230; --card:#121b40; --line:#243062; --navy:#050b26; --blue:#3b82f6; --cyan:#22b8d8; --soft:#16224f; --onblue:#06112e}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.6}
+.top{background:var(--navy);color:#fff;padding:14px 20px;font-weight:700;font-size:15px;letter-spacing:.2px}
+.wrap{max-width:640px;margin:0 auto;padding:28px 20px 56px}
+h1{font-size:clamp(26px,7vw,34px);line-height:1.15;margin:0 0 10px;font-weight:800;color:var(--ink)}
+h2{font-size:20px;line-height:1.3;margin:36px 0 12px;font-weight:800}
+p{margin:0 0 12px}
+.lead{color:var(--muted);font-size:16.5px}
+.btn{display:block;width:100%;text-align:center;text-decoration:none;font:inherit;font-weight:700;border:0;border-radius:12px;padding:16px 18px;cursor:pointer;min-height:52px}
+.btn-main{background:var(--blue);color:var(--onblue);font-size:18px;margin-top:22px}
+.btn-alt{background:var(--cyan);color:#fff;font-size:15.5px}
+.btn-ghost{background:transparent;color:var(--blue);border:2px solid var(--blue);font-size:15.5px}
+.btn:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+.row{display:flex;gap:10px;margin-top:10px}
+.row>*{flex:1}
+.linkbox{margin-top:14px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;gap:10px;align-items:center}
+.linkbox code{flex:1;min-width:0;font-size:13.5px;word-break:break-all;color:var(--ink)}
+.linkbox button{flex:none;font:inherit;font-weight:700;font-size:14px;background:var(--card);color:var(--blue);border:1px solid var(--line);border-radius:8px;padding:9px 14px;cursor:pointer}
+.hint{font-size:14px;color:var(--muted);margin-top:10px}
+.steps{list-style:none;counter-reset:s;margin:0;padding:0}
+.steps li{counter-increment:s;position:relative;padding:2px 0 14px 46px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--blue);color:var(--onblue);font-weight:800;font-size:15px;display:grid;place-items:center}
+.steps li::after{content:"";position:absolute;left:15px;top:36px;bottom:2px;width:2px;background:var(--line)}
+.steps li:last-child::after{display:none}
+ul.list{margin:0 0 6px;padding-left:20px}
+ul.list li{margin-bottom:6px}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:18px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 16px;font-weight:700;display:flex;justify-content:space-between;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:22px;line-height:1;color:var(--blue);font-weight:600}
+details[open] summary::after{content:"\2212"}
+.dbody{padding:0 16px 14px}
+.dbody ul{margin:0;padding-left:20px}
+.dbody li{margin-bottom:6px}
+.wa{margin-top:28px}
+footer{margin-top:36px;font-size:13px;color:var(--muted)}
+.hide{display:none}
+@media (max-width:420px){.row{flex-direction:column}}
+@media (prefers-reduced-motion:no-preference){.btn{transition:transform .12s ease}.btn:active{transform:scale(.985)}}
+</style>
+</head>
+<body>
+<div class="top">PromptNusa Studio</div>
+<main class="wrap">
+  <h1>Terima kasih sudah membeli!</h1>
+  <p class="lead">Di halaman ini ada link akses PromptNusa Studio dan panduan lengkap cara memakainya. Simpan halaman ini di bookmark.</p>
+
+  <a class="btn btn-main" id="open" href="https://saefullahalmaslul11-ctrl.github.io/promptnusa.github.io/">Buka PromptNusa Studio</a>
+
+  <div class="row" id="chromeRow">
+    <a class="btn btn-alt" id="chromeAndroid" href="intent://saefullahalmaslul11-ctrl.github.io/promptnusa.github.io/#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=https%3A%2F%2Fsaefullahalmaslul11-ctrl.github.io%2Fpromptnusa.github.io%2F;end">Buka di Chrome (Android)</a>
+    <a class="btn btn-alt" id="chromeIphone" href="googlechromes://saefullahalmaslul11-ctrl.github.io/promptnusa.github.io/">Buka di Chrome (iPhone)</a>
+  </div>
+  <p class="hint">Tombol Chrome bekerja jika Chrome sudah terpasang. Jika tidak terbuka, salin link di bawah lalu tempel di Chrome.</p>
+
+  <div class="linkbox">
+    <code id="url">https://saefullahalmaslul11-ctrl.github.io/promptnusa.github.io/</code>
+    <button type="button" id="copy">Salin</button>
+  </div>
+
+  <h2>Cara masuk</h2>
+  <ol class="steps">
+    <li>Buka link di atas memakai <b>Google Chrome</b>.</li>
+    <li>Pada layar <b>Akses Studio Prompt</b>, isi kolom <b>Email Lisensi</b> dengan email yang kamu pakai saat membeli di Lynk.id.</li>
+    <li>Tekan <b>Buka Akses Tools</b>. Daftar tools akan tampil dan siap dipakai.</li>
+    <li>Simpan di bookmark Chrome, atau tambahkan ke layar utama HP agar mudah dibuka lagi.</li>
+  </ol>
+
+  <div class="note">Link ini untuk penggunaan pribadi pembeli. Mohon tidak dibagikan ke orang lain.</div>
+
+  <h2>Panduan penggunaan</h2>
+  <p>Prompt dari PromptNusa dipakai di <b>Google Flow</b> (flow.google.com) untuk membuat video. Alurnya sama untuk semua tools.</p>
+
+  <h2 style="font-size:17px;margin-top:22px">Yang perlu disiapkan</h2>
+  <ul class="list">
+    <li>Akun Google Flow yang sudah aktif.</li>
+    <li><b>Foto atau screenshot produk</b> dari etalase. Sudut produk di foto menjadi acuan sudut di seluruh video.</li>
+    <li><b>Foto model atau karakter sheet</b> (jika video menampilkan model). Pilih jenis model di tools yang sama dengan karakter sheet-mu.</li>
+    <li>Nama produk dan atribut sesuai etalase, ditulis pendek dan hanya yang benar-benar tertulis.</li>
+  </ul>
+
+  <h2 style="font-size:17px;margin-top:22px">Alur 6 langkah</h2>
+  <ol class="steps">
+    <li>Buka tools yang sesuai produkmu, lalu isi <b>nama produk</b> dan <b>atribut</b> (pisahkan dengan koma).</li>
+    <li>Atur pilihan yang tersedia: jenis konten, model, hook, CTA, latar, teks overlay, dan watermark akun (kosongkan jika tidak perlu).</li>
+    <li>Tekan <b>Generate prompt</b>, lalu tekan <b>Salin prompt</b>.</li>
+    <li>Buka Google Flow dan unggah <b>foto produk</b> serta <b>foto model atau karakter sheet</b> sebagai gambar referensi. Untuk hasil paling konsisten, pakai foto produk sebagai frame awal (Frames to Video).</li>
+    <li>Tempel prompt, atur rasio <b>9:16</b>, lalu buat video. Disarankan membuat 3 sampai 4 variasi dan memilih yang paling sesuai foto produk.</li>
+    <li>Cek konsistensi: jeda video di detik <b>0, 3, 6, dan 10</b>, lalu bandingkan warna, bentuk, motif, dan detail dengan foto produk.</li>
+  </ol>
+
+  <div class="note"><b>Tombol Buat baru</b> membersihkan form untuk produk berikutnya. Setiap kali menekan Generate, hook, CTA, dan latar dibuat baru, jadi hasilnya tidak selalu sama.</div>
+
+  <h2>Panduan tiap tools</h2>
+  <details>
+    <summary>Sandal &amp; Sepatu</summary>
+    <div class="dbody"><ul>
+      <li>Ada dua pintu: <b>Prompt Master</b> (5 jenis konten: POV, UGC, Review, Unboxing, Lifestyle) dan <b>Template Prompt</b> untuk hasil cepat.</li>
+      <li>Pilih <b>Kategori produk</b> (wanita, pria, anak) dan <b>Model</b> (pria atau wanita) sesuai karakter sheet-mu.</li>
+      <li>Isi nama dan atribut produk, lalu Generate. Teks overlay dibuat satu per segmen dan tidak ganda.</li>
+    </ul></div>
+  </details>
+  <details>
+    <summary>Fashion</summary>
+    <div class="dbody"><ul>
+      <li>Pilih <b>Jenis konten</b>, <b>Untuk</b> (siapa pemakainya), <b>Jenis pakaian</b> (atasan, bawahan, setelan), dan <b>Model</b> (pria dewasa, wanita dewasa, pria &amp; wanita dewasa, anak wanita, anak pria, anak pria &amp; wanita).</li>
+      <li><b>Mode suara:</b> Voice Over (model tidak bicara, hanya berpose dan memperagakan outfit) atau Model berbicara (suara dalam dan hangat, bicara langsung ke kamera).</li>
+      <li><b>Posisi dan angle kamera</b> berbeda untuk tiap mode. Voice Over: Come-Thru Strut, Mirror Selfie OOTD, Cover Then Come Back, Gorpcore Outdoor Walk, 3 Ways to Style, Whimsy / Y2K Fashion. Model berbicara: GRWM, Mirror Talk OOTD, Walking Talk, Fashion Review Talk, Sit Down Fashion Talk, Direct CTA Fashion.</li>
+      <li>Untuk model anak, wajah anak tidak ditampilkan, jadi mode Model berbicara dan Mirror Selfie tidak tersedia. Pakai Voice Over.</li>
+    </ul></div>
+  </details>
+  <details>
+    <summary>Semua Kategori Produk</summary>
+    <div class="dbody"><ul>
+      <li>Untuk produk apa saja. Hasilnya satu prompt video review <b>10 detik</b>.</li>
+      <li>Isi nama produk, atribut, hook, CTA, dan latar. Boleh pilih acak agar dibuat otomatis.</li>
+      <li>Watermark akun berupa tulisan miring yang blur di pojok kanan bawah, tanpa logo platform.</li>
+    </ul></div>
+  </details>
+  <details>
+    <summary>Video 20 Detik Natural</summary>
+    <div class="dbody"><ul>
+      <li>Menghasilkan <b>dua prompt</b> 10 detik yang bersambung. Buat video 1 dengan prompt 1, lalu pakai <b>frame akhir video 1 sebagai frame awal video 2</b> dan tempel prompt 2.</li>
+      <li>Lampirkan foto produk dan foto model yang sama di kedua video. Buat beberapa varian dan pilih yang paling natural.</li>
+      <li>Setelah keduanya jadi, sambung kedua klip berurutan di aplikasi edit video sehingga menjadi satu video 20 detik. Angle kamera menyesuaikan jenis produk.</li>
+    </ul></div>
+  </details>
+  <details>
+    <summary>TikTok Viral Fashion – Silent Video</summary>
+    <div class="dbody"><ul>
+      <li>Video fashion bergaya tren TikTok: <b>tanpa suara, tanpa voice over, tanpa musik, tanpa teks overlay, tanpa subtitle</b>.</li>
+      <li>Pilih <b>Model</b> dan <b>Jenis produk</b> (atasan, bawahan, atau setelan), isi nama produk, lalu Generate.</li>
+      <li>Posisi model, gerakan, framing, dan angle kamera ditentukan otomatis sesuai jenis produk, dan berbeda di tiap segmen.</li>
+    </ul></div>
+  </details>
+
+  <h2>Tips agar produk konsisten</h2>
+  <ul class="list">
+    <li>Gunakan foto produk dari <b>sudut yang kamu inginkan muncul di video</b>. Flow mengikuti sudut pada foto referensi.</li>
+    <li>Tulis atribut hanya yang tertulis di etalase. Jangan menambah klaim yang tidak ada.</li>
+    <li>Untuk produk besar (misalnya alat olahraga), tulis ukuran asli di atribut, misalnya “tinggi sekitar 110 cm”, supaya produk tidak tampak seperti mainan.</li>
+    <li>Jika satu adegan melenceng, buat ulang beberapa variasi. Jangan menambal prompt secara manual karena bisa merusak strukturnya.</li>
+    <li>Aktifkan label konten buatan AI saat mengunggah video yang tampak realistis, dan cek aturan platform sebelum mengunggah.</li>
+  </ul>
+
+  <h2>Jika ada kendala</h2>
+  <ul class="list">
+    <li><b>Tidak bisa masuk:</b> pastikan email yang dimasukkan sama dengan email pembelian.</li>
+    <li><b>Sudut produk melenceng:</b> unggah ulang foto produk dengan sudut yang diinginkan, lalu buat beberapa variasi.</li>
+    <li><b>Produk berubah bentuk atau bertambah komponen:</b> pastikan atribut sesuai foto, lalu buat ulang.</li>
+    <li><b>Halaman tools tidak terbuka rapi di browser bawaan HP:</b> salin link di atas dan buka di Chrome.</li>
+  </ul>
+
+  <a class="btn btn-ghost wa" href="https://wa.me/6283195867946?text=Halo%20Admin%20PromptNusa,%20saya%20butuh%20bantuan">Chat WhatsApp Admin</a>
+
+  <footer>PromptNusa Studio</footer>
+</main>
+<script>
+(function(){
+  var ua = navigator.userAgent || "";
+  var isAndroid = /Android/i.test(ua);
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+  var a = document.getElementById("chromeAndroid");
+  var i = document.getElementById("chromeIphone");
+  var row = document.getElementById("chromeRow");
+  if (isAndroid) { i.classList.add("hide"); }
+  else if (isIOS) { a.classList.add("hide"); }
+  else { row.classList.add("hide"); }
+  var btn = document.getElementById("copy");
+  btn.addEventListener("click", function(){
+    var t = document.getElementById("url").textContent;
+    var done = function(){ btn.textContent = "Tersalin"; setTimeout(function(){ btn.textContent = "Salin"; }, 1800); };
+    var fb = function(){
+      try {
+        var r = document.createRange(); r.selectNodeContents(document.getElementById("url"));
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        document.execCommand("copy"); done();
+      } catch (e) { btn.textContent = "Tekan lama untuk salin"; }
+    };
+    try { navigator.clipboard.writeText(t).then(done, fb); } catch (e) { fb(); }
+  });
+})();
+</script>
+</body>
+</html>
